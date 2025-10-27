@@ -10,16 +10,11 @@ public class Calculator {
     int boardWidth = 400;
     int boardheight = 600;
 
-    // Color palette (chnaged to gruvbox)
+    // Color palette (gruvbox-like)
     Color customLightGray = new Color(189, 174, 147);  
     Color customDarkgray = new Color(50, 48, 47);      
     Color customBlack = new Color(40, 40, 40);         
     Color customOrange = new Color(254, 128, 25);      
-
-    // Color customLightGray = new Color(216, 222, 233);
-    // Color customDarkgray = new Color(80, 80, 80);
-    // Color customBlack = new Color(46, 52, 64);
-    // Color customOrange = new Color(254, 128, 25);
 
     
     String[] buttonValues = {
@@ -197,3 +192,4 @@ public class Calculator {
     // we need components to display on the window, we will need 2 here, one for the buttons (numbers + operators) and one for displaying calculations
 
 }
+
