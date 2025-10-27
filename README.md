@@ -1,2 +1,4 @@
-# Calculator-in-Java
-Fully functional basic calculator 
+* ## Preview
+![Description](Preview.png)
+
+### More functionalities to be added soon..
