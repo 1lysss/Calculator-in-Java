@@ -128,7 +128,7 @@ public class Calculator {
                                 clearAll(); // after each calculation, reset variables
                             }
                         }
-                        else if ("-+×÷√".contains(buttonValue)) {
+                        else if ("-+×÷".contains(buttonValue)) {
                             if (operator == null) {
                                 var1 = displayLabel.getText();
                                 displayLabel.setText(defaultText);
@@ -192,4 +192,5 @@ public class Calculator {
     // we need components to display on the window, we will need 2 here, one for the buttons (numbers + operators) and one for displaying calculations
 
 }
+
 
